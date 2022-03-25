@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Backend - Dev",
+      "detail": "Start the nodemon dev server",
+      "path": "packages/turtur-backend/",
+      "type": "npm",
+      "script": "dev",
+      "group": "build"
+    },
+    {
+      "label": "Frontend - Build",
+      "detail": "Build the frontend dist files",
+      "path": "packages/turtur-frontend/",
+      "type": "npm",
+      "script": "build",
+      "group": "build"
+    },
+    {
+      "label": "Frontend - Dev",
+      "detail": "Start the vite dev server",
+      "path": "packages/turtur-frontend/",
+      "type": "npm",
+      "script": "dev",
+      "group": "build"
+    }
+  ]
+}

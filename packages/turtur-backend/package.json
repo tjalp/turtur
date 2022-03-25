@@ -1,0 +1,10 @@
+{
+    "name": "turtur-backend",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "nodemon src/app.js"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    }
+  }
